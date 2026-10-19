@@ -1,0 +1,11 @@
+hackaton/
+spam_service/
+data/
+__MACOSX/
+*.csv
+*.eml
+.venv/
+venv/
+__pycache__/
+*.pyc
+.git/

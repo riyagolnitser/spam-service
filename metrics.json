@@ -1,0 +1,45 @@
+{
+  "model": "TF-IDF + manual features + LogisticRegression",
+  "best_C": 10.0,
+  "threshold": 0.795932783591055,
+  "threshold_rule": "max Precision(spam) при Recall(spam) >= 0.9",
+  "validation": {
+    "precision_spam": 0.9801587301587301,
+    "recall_spam": 0.9182156133828996,
+    "f1_spam": 0.9481765834932822,
+    "confusion_matrix": [
+      [
+        752,
+        5
+      ],
+      [
+        22,
+        247
+      ]
+    ]
+  },
+  "test": {
+    "precision_spam": 1.0,
+    "recall_spam": 0.929368029739777,
+    "f1_spam": 0.9633911368015414,
+    "confusion_matrix": [
+      [
+        757,
+        0
+      ],
+      [
+        19,
+        250
+      ]
+    ]
+  },
+  "cross_validation": {
+    "n_folds": 5,
+    "precision_mean": 0.9879896047195871,
+    "precision_std": 0.0017337725469654187,
+    "recall_mean": 0.9186581673306773,
+    "recall_std": 0.006499385462999124,
+    "f1_mean": 0.9520535362346226,
+    "f1_std": 0.003933812813076081
+  }
+}
